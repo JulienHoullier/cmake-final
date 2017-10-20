@@ -5,15 +5,15 @@
 # \version   1.0
 # \date      13/04/2015
 # \HowTo     This file should not be modified
-message("version ${node_PACKAGE_VERSION} ${node_VERSION}"
-set(PACKAGE_VERSION "${node_PACKAGE_VERSION}")
- 
+
+set(PACKAGE_VERSION "")
+
 # Check whether the requested PACKAGE_FIND_VERSION is compatible
-if("${PACKAGE_VERSION}" VERSION_LESS "${PACKAGE_FIND_VERSION}")
+if("" VERSION_LESS "")
   set(PACKAGE_VERSION_COMPATIBLE FALSE)
 else()
   set(PACKAGE_VERSION_COMPATIBLE TRUE)
-  if ("${PACKAGE_VERSION}" VERSION_EQUAL "${PACKAGE_FIND_VERSION}")
+  if ("" VERSION_EQUAL "")
     set(PACKAGE_VERSION_EXACT TRUE)
   endif()
 endif()

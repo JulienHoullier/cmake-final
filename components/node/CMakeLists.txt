@@ -41,7 +41,7 @@ target_link_libraries(${COMPONENT_LIB_NAME} ${LIBS})  # Give library linked to t
 #Configuration file
 export(TARGETS ${COMPONENT_LIB_NAME} FILE "${CMAKE_CURRENT_SOURCE_DIR}/conf/export/targets.cmake")
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/conf/config.cmake.in ${CMAKE_CURRENT_SOURCE_DIR}/conf/export/${COMPONENT_LIB_NAME}Config.cmake @ONLY)
-configure_file(${CMAKE_CURRENT_SOURCE_DIR}/conf/configVersion.cmake.in ${CMAKE_CURRENT_SOURCE_DIR}/conf/export/${COMPONENT_LIB_NAME}ConfigVersion.cmake @ONLY)
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/conf/configVersion.cmake.in ${CMAKE_CURRENT_SOURCE_DIR}/conf/export/${COMPONENT_LIB_NAME}ConfigVersion.cmake)
 
 # Delivery step setup only in Release mode
 if(CMAKE_BUILD_TYPE MATCHES "Release")

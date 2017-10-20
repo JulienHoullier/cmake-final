@@ -11,7 +11,7 @@ if(CMAKE_BUILD_TYPE MATCHES "Release")
     message("VERSION DU PROJET ${PROJECT_NAME} : ${${PROJECT_NAME}_VERSION}\n")
 else(CMAKE_BUILD_TYPE MATCHES "Release")
     project(${PROJECT_NAME})
-    set(NODE_PACKAGE_VERSION "") # Add this line for each component
+    #set(NODE_PACKAGE_VERSION "1.0.0") # Add this line for each component
 endif(CMAKE_BUILD_TYPE MATCHES "Release")
 
 

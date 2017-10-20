@@ -174,9 +174,6 @@ SmartPath_SOURCE_DIR:STATIC=/home/root2/dev/project_cmake_complexe
 //Value Computed by CMake
 node_BINARY_DIR:STATIC=/home/root2/dev/project_cmake_complexe/build/components/node
 
-//The directory containing a CMake configuration file for node.
-node_DIR:PATH=node_DIR-NOTFOUND
-
 //Dependencies for target
 node_LIB_DEPENDS:STATIC=
 
@@ -194,6 +191,18 @@ project1_BINARY_DIR:STATIC=/home/root2/dev/project_cmake_complexe/build/projects
 
 //Value Computed by CMake
 project1_SOURCE_DIR:STATIC=/home/root2/dev/project_cmake_complexe/projects/project1
+
+//Value Computed by CMake
+project2_BINARY_DIR:STATIC=/home/root2/dev/project_cmake_complexe/build/projects/project2
+
+//Value Computed by CMake
+project2_SOURCE_DIR:STATIC=/home/root2/dev/project_cmake_complexe/projects/project2
+
+//Value Computed by CMake
+project3_BINARY_DIR:STATIC=/home/root2/dev/project_cmake_complexe/build/projects/project3
+
+//Value Computed by CMake
+project3_SOURCE_DIR:STATIC=/home/root2/dev/project_cmake_complexe/projects/project3
 
 //Value Computed by CMake
 toto_BINARY_DIR:STATIC=/home/root2/dev/project_cmake_complexe/build/components/toto
@@ -312,7 +321,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
