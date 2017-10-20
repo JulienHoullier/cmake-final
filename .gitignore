@@ -1,0 +1,10 @@
+packages
+.docker-*
+*.swp
+*.log
+.id
+*.exe
+*.zip
+Thumbs.db
+build
+**/build
